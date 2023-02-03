@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerActions : MonoBehaviour
 {
     public LayerMask layer;
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetButtonDown("Jump"))
@@ -14,7 +13,7 @@ public class PlayerActions : MonoBehaviour
             Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactiveRange,layer);
             if (colliderArray.Length != 0)
             {
-                Debug.Log("Interact");
+               
             }
         }
     }
