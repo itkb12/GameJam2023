@@ -28,10 +28,16 @@ public class PlayerMovement : MonoBehaviour
     {
         movementSpeed = 3f;
         Vector3 movementDirection;
-        if (Input.GetButton("Fire3"))
+        if (Input.GetButton("Fire3") && Input.GetAxisRaw("Vertical") > 0)
         {
             movementSpeed = 5f;
         }
+        else if (Input.GetAxisRaw("Vertical") < 0)
+        {
+            movementSpeed = 1f;
+        }
+
+        
         transform.Rotate(0, Input.GetAxis("Horizontal") * turningSpeed * Time.deltaTime, 0);
         movementDirection = transform.forward * Input.GetAxis("Vertical") * movementSpeed;
 
@@ -39,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
 
         
 
-        if (movementDirection != Vector3.zero && movementSpeed == 3f)
+        if (movementDirection != Vector3.zero && movementSpeed <= 3f)
         {
             state = MovementState.walking;
         }else if (movementDirection != Vector3.zero && movementSpeed == 5f)

@@ -4,19 +4,28 @@ using UnityEngine;
 
 public class PlayerActions : MonoBehaviour
 {
+    public GameObject textBox;
     void Update()
     {
         if (Input.GetButtonDown("Jump"))
         {
-            float interactiveRange = 2f;
-            Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactiveRange);
-            foreach (Collider collider in colliderArray)
+            if (textBox.activeInHierarchy)
             {
-                if (collider.TryGetComponent(out Interactable interactable))
+                textBox.SetActive(false);
+            }
+            else
+            {
+                float interactiveRange = 2f;
+                Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactiveRange);
+                foreach (Collider collider in colliderArray)
                 {
-                    interactable.Interact();
+                    if (collider.TryGetComponent(out Interactable interactable))
+                    {
+                        interactable.Interact();
+                    }
                 }
             }
+            
         }
     }
 }
