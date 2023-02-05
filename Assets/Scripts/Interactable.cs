@@ -6,20 +6,25 @@ using UnityEngine.UIElements;
 
 public class Interactable : MonoBehaviour
 {
-    LayerMask layer;
     public GameObject textBox;
     public TMP_Text textBoxText;
     private string text = "Interact";
 
     private void Start()
     {
-        textBox.SetActive(false);
+        //textBox.SetActive(false);
     }
-    virtual public void Interact()
+    public void Interact()
     {
+        Time.timeScale = 0f;
 
-        textBoxText.text = text;
+        TextToAppear();
 
         textBox.SetActive(true);
+    }
+
+    virtual public void TextToAppear() 
+    {
+        textBoxText.text = text;
     }
 }

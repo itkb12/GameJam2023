@@ -4,22 +4,18 @@ using UnityEngine;
 
 public class GnomeInteraction : Interactable
 {
-    // Start is called before the first frame update
-    protected bool found = false;
-
 
     // Update is called once per frame
-    override public void Interact()
+    override public void TextToAppear()
     {
-        if (!found)
+        if (!Globals.foundKey)
         {
             textBoxText.text = "Found a Key.";
-            found = true;
+            Globals.foundKey = true;
         }
         else
         {
             textBoxText.text = "There nothing under it now.";
         }
-        textBox.SetActive(true);
     }
 }

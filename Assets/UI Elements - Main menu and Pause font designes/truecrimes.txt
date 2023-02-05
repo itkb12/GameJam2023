@@ -1,0 +1,150 @@
+True Crimes Expanded
+font by Walter Velez
+revised by Vít Èondák
+2002-2020
+
+En Cz Sk De Fr Es Pl Tr
+
+Category: retro
+
+
+[English description]
+
+This font is based on the font True Crimes 
+by the late Walter Velez (28 November 1939 - 24 August 2018).
+
+Velez published it on his website in 2002 but he never really finished it
+(his version included only basic letters and numbers).
+Unfortunately the original site had disappeared and it seemed 
+the font was never going to be finished so I decided to take
+care of if and I revised the font.
+
+I added the whole "Latin-1 Supplement" and "Latin Extended A" and I tweaked all margins and glyphs.
+They are a bit more ballanced and smoother now (i.e. there are less points).
+
+If you think something in this font still doesn't feel right please contact me.
+
+
+[ English License ]
+
+This font is free for personal or non-commercial use and the same thing applies to the original font.
+In case you want to use the font for a commercial project please contact the estate of Walter Velez:
+www.jillbauman.com/walter-velez
+
+
+[ Èeský popis ]
+
+Tento font je založený na fontu True Crimes,
+který vytvoøil již zesnulý Walter Velez (28. 11. 1939 - 24. 8. 2018).
+
+Velez font zveøejnil na svém webu v roce 2002, ale nikdy ho zcela nedokonèil
+(jeho verze obsahovala pouze základní písmena a èíslice).
+Pùvodní web už bohužel zmizel a zdálo se, že font už nebude nikdy dokonèen,
+a tak jsem se rozhodl toho úkolu ujmout a font jsem upravil.
+
+Pøidal jsem celé sekce "Latin-1 Supplement" a "Latin Extended A" a upravil jsem všechny okraje a glyfy.
+Jsou teï trochu vyváženìjší a hladší (tj. jejich kontury obsahují ménì bodù).
+
+Pokud ve fontu objevíte nìco, co by bylo vhodné opravit nebo doladit, tak mì prosím kontaktujte.
+
+
+[ Èeská licence ]
+
+Tento font je zdarma pro osobní a nekomerèní užití a totéž platí i pro pùvodní font.
+V pøípadì, že chcete font použít pro komerèní úèely, je nutné kontaktovat pozùstalost Waltera Veleze:
+www.jillbauman.com/walter-velez
+
+
+---
+
+History
+
+1.23	2020-07-21
+	* tweaked: Tbar U
+
+1.22	2020-07-17
+	* [ ]
+	* tweaked: * < > = \ | brokenbar cent guillemots section
+
+1.21	2020-07-16
+	* tweaked: # $ % breve dotaccent ring tilde hungarumlaut Lslash lslash
+
+1.20	2020-07-15
+	* tweaked: 5 9 B H S W b c d e f g h o s w Thorn ae @
+
+1.19	2020-07-14
+	+ kerning: VM MV VA AV AT TA
+	* 3 5
+	* tweaked: 2 6 paragraph caron breve acute grave
+	* margins: U
+
+1.18	2020-07-13
+	* V { } germandbls AE OE oe
+	* tweaked: 1 m ~ thorn longs 
+	* margins: A a K M m R r o
+
+1.17	2020-07-10
+	* tweaked: ? , A Q T U V X Y Z q t v y z [ ]
+
+1.16	2020-07-09
+	* tweaked: A G I J K M N P a m n p pound
+
+1.15	2020-07-02
+	+ Euro infinity
+	* tweaked: B C E F S germandbls
+
+1.14	2020-06-26
+	+ eth ordmas ordfem paragraph daggers mu multiply
+	* tweaked: 0 A O j u bullet
+	* position: macronc breve
+
+1.13	2020-06-25
+	* position: + - = quoterev
+	* tweaked: R r (c)
+	+ logicalnot (R)
+
+1.12	2020-06-17
+	+ ^ < > * divide pound napostrophe percent permille
+	* @
+
+1.11	2020-06-16
+	+ []§'"|=# +- plusminus $ cent amp TM guillemots brokenbar (c)
+	* O o P p R r W X x Z z germandbls longs ()
+	* margins: S* s* M m A* a* K k J* j* Y* y* O* o* Z* z* b
+
+1.10	2020-06-15
+	+ ( ) / \ _ Oslash oslash thorn Eth Dcroat dcroat 1-4sup
+	* 8 Lslash lslash ae
+
+1.09	2020-06-11
+	+ IJ ij Eng eng OE oe Thorn
+	* tweaked: l
+
+1.08	2020-06-11
+	+ +cedilla +dot Lcaron lcaron Lslash lslash .notdef
+	* tweaked: ! 4 H I L
+	* margins: M d o n
+
+1.07	2020-06-11
+	* simplification of all glyphs
+
+1.05	2020-06-10
+	+ +breve longs germandbls
+	* margins: P p
+	* tweaks: S s
+
+1.04	2020-06-09
+	+ +macron +tilde +circumflex
+	* 2 8 A v
+	* kerning: F. P. T.
+	* margins: 
+
+1.02	2020-06-08
+	+ , . - +acute +grave +caron +ring
+	* A a V W w
+
+1.00	2002-02-18
+	* initial public release by Walter Velez
+	+ A-Z a-z 0-9 ? !
+
+(eof)

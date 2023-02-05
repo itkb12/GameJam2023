@@ -5,6 +5,7 @@ using UnityEngine;
 public class PauseMenuManager : MonoBehaviour
 {
     public GameObject pauseMenu;
+    public GameObject backgroundInventory;
     public bool isPaused;
 
     // Start is called before the first frame update
@@ -30,6 +31,7 @@ public class PauseMenuManager : MonoBehaviour
     }
     public void PauseGame()
     {
+        backgroundInventory.SetActive(false);
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
@@ -37,6 +39,7 @@ public class PauseMenuManager : MonoBehaviour
 
     public void ResumeGame()
     {
+        backgroundInventory.SetActive(true);
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
