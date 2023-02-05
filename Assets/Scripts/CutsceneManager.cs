@@ -8,7 +8,12 @@ public class CutsceneManager : MonoBehaviour
     public void PressedContinue()
     {
         Debug.Log("Proxima Fase");
-        Application.Quit();
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void PressedTheEnd()
+    {
+        Debug.Log("Cabou");
+        SceneManager.LoadScene("MainMenu");
     }
 }

@@ -10,7 +10,7 @@ public class RootInteraction : Interactable
 
         if (Globals.foundFlameThrower)
         {
-            Time.timeScale = 0f;
+            Time.timeScale = 1f;
             textBoxText.text = "sfx roots burning fsshhh";
             Globals.foundFlameThrower = false;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);

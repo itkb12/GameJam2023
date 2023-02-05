@@ -15,6 +15,11 @@ public class Globals : MonoBehaviour
     public static bool foundSpray;
     public static bool foundLighter;
     public static bool foundFlameThrower;
+    public static bool foundScissors;
+    public static bool foundTablecloth;
+    public static bool foundScrewdriver;
+    public static bool foundPaperclip;
+    public static bool foundLockpick;
     void Start()
     {
         playerIsAlive = true;
@@ -24,5 +29,10 @@ public class Globals : MonoBehaviour
         foundSpray = false;
         foundLighter = false;
         foundFlameThrower = false;
+        foundScissors = false;
+        foundTablecloth = false; ;
+        foundScrewdriver = false; ;
+        foundPaperclip = false; ;
+        foundLockpick = false; ;
     }
 }

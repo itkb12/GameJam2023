@@ -22,6 +22,7 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (!agent.pathPending)
         {
             if (agent.remainingDistance <= agent.stoppingDistance)
@@ -36,6 +37,7 @@ public class EnemyController : MonoBehaviour
                 }
             }
         }
+        
 
         if (Vector3.Distance(transform.position,playerObj.position) <= maxDistance)
         {
@@ -62,6 +64,7 @@ public class EnemyController : MonoBehaviour
             else if(isChasing)
             {
                 isChasing= false;
+                agent.SetDestination(playerObj.position);
                 transform.position = teleportPoints[Random.Range(0,teleportPoints.Length)].position;
                 agent.ResetPath();
             }

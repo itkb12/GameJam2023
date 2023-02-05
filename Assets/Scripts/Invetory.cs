@@ -16,10 +16,12 @@ public class Invetory : MonoBehaviour
 
     private void Update()
     {
+        //Level0
         if (Globals.foundKey)
         {
             invetory.transform.GetChild(0).gameObject.SetActive(true);
         }
+        //Level1
         if (Globals.foundKey2)
         {
             invetory.transform.GetChild(0).gameObject.SetActive(true);
@@ -57,6 +59,30 @@ public class Invetory : MonoBehaviour
             invetory.transform.GetChild(7).gameObject.SetActive(true);
             invetory.transform.GetChild(5).gameObject.SetActive(false);
             invetory.transform.GetChild(6).gameObject.SetActive(false);
+        }
+
+        //Level2
+        if (Globals.foundPaperclip)
+        {
+            invetory.transform.GetChild(0).gameObject.SetActive(true);
+        }
+        if (Globals.foundScrewdriver)
+        {
+            invetory.transform.GetChild(1).gameObject.SetActive(true);
+        }
+        if (Globals.foundLockpick)
+        {
+            invetory.transform.GetChild(2).gameObject.SetActive(true);
+            invetory.transform.GetChild(0).gameObject.SetActive(false);
+            invetory.transform.GetChild(1).gameObject.SetActive(false);
+        }
+        if (Globals.foundScissors)
+        {
+            invetory.transform.GetChild(3).gameObject.SetActive(true);
+        }
+        if (Globals.foundTablecloth)
+        {
+            invetory.transform.GetChild(4).gameObject.SetActive(true);
         }
     }
 

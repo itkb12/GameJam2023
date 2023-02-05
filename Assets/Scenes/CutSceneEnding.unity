@@ -181,7 +181,7 @@ PrefabInstance:
     - target: {fileID: 6287877086413297850, guid: 535b3ccd93c5c5a4ab695a95e49cf667, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: a775387f2a3f47a4d9bc060db6e49f28, type: 3}
+      objectReference: {fileID: 8300000, guid: b4795ac7756369f4a9e38990891fc0e0, type: 3}
     - target: {fileID: 6287877086413297851, guid: 535b3ccd93c5c5a4ab695a95e49cf667, type: 3}
       propertyPath: m_Name
       value: MusicController (1)
@@ -452,6 +452,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2971800801955534660, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_text
+      value: The end.
+      objectReference: {fileID: 0}
     - target: {fileID: 2971800802276197682, guid: fc227c0a7850795449be92308c393467, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -536,10 +540,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2971800802276197684, guid: fc227c0a7850795449be92308c393467, type: 3}
-      propertyPath: m_UiScaleMode
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2971800802276197686, guid: fc227c0a7850795449be92308c393467, type: 3}
       propertyPath: m_Name
       value: Cutscenes
@@ -551,6 +551,20 @@ PrefabInstance:
     - target: {fileID: 2971800802596625985, guid: fc227c0a7850795449be92308c393467, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800802596625985, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PressedTheEnd
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800802596625987, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_Name
+      value: ButtonTheEnd
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_text
+      value: 'I started running as soon as I hit the ground, but the roots did not
+        let me. The started growing faster and faster. They were clearly after me.
+        And I died. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc227c0a7850795449be92308c393467, type: 3}
