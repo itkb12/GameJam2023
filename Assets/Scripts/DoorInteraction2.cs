@@ -14,7 +14,7 @@ public class DoorInteraction2 : Interactable
         else
         {
             Time.timeScale = 0f;
-            textBoxText.text = "sfx door opening nhhhhh";
+            textBoxText.text = "Door unlocked!";
             Globals.foundKey2 = false;
             Destroy(this.gameObject);
         }

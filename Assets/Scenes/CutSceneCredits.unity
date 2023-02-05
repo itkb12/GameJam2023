@@ -181,7 +181,7 @@ PrefabInstance:
     - target: {fileID: 6287877086413297850, guid: 535b3ccd93c5c5a4ab695a95e49cf667, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: b4795ac7756369f4a9e38990891fc0e0, type: 3}
+      objectReference: {fileID: 8300000, guid: 0df62cff6808fb04ab9c49862d730a74, type: 3}
     - target: {fileID: 6287877086413297851, guid: 535b3ccd93c5c5a4ab695a95e49cf667, type: 3}
       propertyPath: m_Name
       value: MusicController (1)
@@ -454,7 +454,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2971800801955534660, guid: fc227c0a7850795449be92308c393467, type: 3}
       propertyPath: m_text
-      value: The end.
+      value: Back to Main Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800801955534660, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_fontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800801955534660, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 2971800802276197682, guid: fc227c0a7850795449be92308c393467, type: 3}
       propertyPath: m_Pivot.x
@@ -554,16 +562,92 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2971800802596625985, guid: fc227c0a7850795449be92308c393467, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PressedContinue
+      value: PressedTheEnd
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800802596625986, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800802596625986, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800802596625986, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -4.4991
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800802596625986, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -401
       objectReference: {fileID: 0}
     - target: {fileID: 2971800802596625987, guid: fc227c0a7850795449be92308c393467, type: 3}
       propertyPath: m_Name
       value: ButtonTheEnd
       objectReference: {fileID: 0}
+    - target: {fileID: 2971800803391775622, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800803391775622, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 18c332283b9b31141a50b5e470606f4e, type: 3}
+    - target: {fileID: 2971800803391775622, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800803391775622, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800803391775622, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
       propertyPath: m_text
-      value: " \"As I touched my feet on the ground, something hit me in the head,
-        \r\nI can feel that I'm at yard once again, where this thing is taking me?\""
+      value: "Credits\nPublishing Director \u2013 Maria Tereza\r\nProduction Director
+        \u2013 Felipe Lobo\r\nHead of Production \u2013 Joaquim Alberto\r\nGame Director
+        \u2013 Davi Bennier\r\nHead of Game Design - Elder silva\r\nArt Director\u2013
+        Gal Galeno\r\nTechnical Director - Suziane Cundiff\r\nTechnical Director
+        - John Rodrigues\r\nTechnical Director - Everton Borges\r\nHead of Programming
+        \u2013 Italo Amadeus"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_fontSize
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_margin.w
+      value: 255.89474
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_margin.x
+      value: 82.35968
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_margin.y
+      value: 33.37401
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_margin.z
+      value: 102.29413
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800803426749635, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800803426749635, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0050413
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc227c0a7850795449be92308c393467, type: 3}

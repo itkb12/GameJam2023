@@ -13,7 +13,7 @@ public class DoorInteraction3 : Interactable
         else
         {
             Time.timeScale = 0f;
-            textBoxText.text = "sfx door opening nhhhhh";
+            textBoxText.text = "Door unlocked.";
             Globals.foundLockpick = false;
             Destroy(this.gameObject);
         }

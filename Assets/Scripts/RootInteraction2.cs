@@ -15,7 +15,7 @@ public class RootInteraction2 : Interactable
             if (Globals.foundFlameThrower)
             {
                 Time.timeScale = 0f;
-                textBoxText.text = "sfx roots burning fsshhh";
+                textBoxText.text = "The roots are burning.";
                 Globals.foundFlameThrower = false;
                 root = false;
             }
@@ -30,7 +30,7 @@ public class RootInteraction2 : Interactable
             if (Globals.foundScissors)
             {
                 Time.timeScale = 0f;
-                textBoxText.text = "sfx window grid being cut clack clack clack";
+                textBoxText.text = "The window grid was cut.";
                 Globals.foundScissors = false;
                 windowGrid = false;
             }
