@@ -562,9 +562,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
       propertyPath: m_text
-      value: 'I started running as soon as I hit the ground, but the roots did not
-        let me. The started growing faster and faster. They were clearly after me.
-        And I died. '
+      value: " \"As I touched my feet on the ground, something hit me in the head,
+        \r\nI can feel that I'm at yard once again, where this thing is taking me?\""
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc227c0a7850795449be92308c393467, type: 3}

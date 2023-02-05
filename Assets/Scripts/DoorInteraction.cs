@@ -9,7 +9,7 @@ public class DoorInteraction : Interactable
     {
         if (!Globals.foundKey)
         {
-            textBoxText.text = "The Door is locked";
+            textBoxText.text = "It's locked, we used to keep the key under the garden gnome";
         }
         else
         {

@@ -552,6 +552,25 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_text
+      value: "\"Has I saw the light of the roots on flames, realize somethin...\nI
+        found myself in a pickle!\n\n As I'm walking upstairs my vision blurred,
+        and I'm in another place, looks like the place where I was but not quite
+        right...\"\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc227c0a7850795449be92308c393467, type: 3}
 --- !u!224 &2971800801912267248 stripped
