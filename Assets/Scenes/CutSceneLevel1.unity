@@ -554,13 +554,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
       propertyPath: m_text
-      value: "\"The roots are blocking my passage back, where is everyone? something
-        is wrong with this house...\"irs my vision blurred, and I'm in another place,
-        looks like the place where I was but not quite right...\"\r"
+      value: '"The roots are blocking my passage back, where is everyone? something
+        is wrong with this house..."'
       objectReference: {fileID: 0}
     - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
       propertyPath: m_fontSize
-      value: 80
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
       propertyPath: m_margin.w
@@ -572,7 +571,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
       propertyPath: m_fontSizeBase
-      value: 80
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2971800803426749635, guid: fc227c0a7850795449be92308c393467, type: 3}
       propertyPath: m_SizeDelta.y

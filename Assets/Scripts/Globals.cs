@@ -30,9 +30,9 @@ public class Globals : MonoBehaviour
         foundLighter = false;
         foundFlameThrower = false;
         foundScissors = false;
-        foundTablecloth = false; ;
-        foundScrewdriver = false; ;
-        foundPaperclip = false; ;
-        foundLockpick = false; ;
+        foundTablecloth = false;
+        foundScrewdriver = false;
+        foundPaperclip = false;
+        foundLockpick = false;
     }
 }

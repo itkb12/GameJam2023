@@ -24,7 +24,7 @@ public class PortraitInteraction : Interactable
             
         }
         textBoxText.text = "Found all four pieces of the picture";
-        this.gameObject.GetComponent<Renderer>().material = completePortrait;
+        gameObject.GetComponent<Renderer>().material = completePortrait;
         
         Globals.foundKey2 = true;
         for (int i = 0; i < 4; i++)

@@ -25,7 +25,22 @@ public class EnemyControllerPlaceHolder : MonoBehaviour
             timer = timer + Time.deltaTime;
             if (timer > 1)
             {
-                Debug.Log("Game Over!");
+                //Level1
+                Globals.foundKey2 = false;
+                Globals.foundPiece[0] = false;
+                Globals.foundPiece[1] = false;
+                Globals.foundPiece[2] = false;
+                Globals.foundPiece[3] = false;
+                //Level1+2
+                Globals.foundSpray = false;
+                Globals.foundFlameThrower= false;
+                Globals.foundLighter = false;
+                //Level2
+                Globals.foundScissors = false;
+                Globals.foundTablecloth = false;
+                Globals.foundScrewdriver = false;
+                Globals.foundPaperclip = false;
+                Globals.foundLockpick = false;
                 SceneManager.LoadScene("GameOver");
             }
         }

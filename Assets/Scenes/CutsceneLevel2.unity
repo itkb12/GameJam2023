@@ -554,10 +554,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
       propertyPath: m_text
-      value: "\"Has I saw the light of the roots on flames, realize somethin...\nI
-        found myself in a pickle!\n\n As I'm walking upstairs my vision blurred,
-        and I'm in another place, looks like the place where I was but not quite
-        right...\"\r"
+      value: "\" As I'm walking upstairs my vision blurred, and I'm in another place,
+        looks like the place where I was but not quite right...\"\r"
       objectReference: {fileID: 0}
     - target: {fileID: 2971800803426749634, guid: fc227c0a7850795449be92308c393467, type: 3}
       propertyPath: m_fontSize

@@ -68,8 +68,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Continue
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 27db36c0754bf5e4f87de6655021a195, type: 2}
-  m_sharedMaterial: {fileID: -7228926837244280820, guid: 27db36c0754bf5e4f87de6655021a195, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ddd56f54a8fd3994388803c169998b3a, type: 2}
+  m_sharedMaterial: {fileID: -3833636351256235917, guid: ddd56f54a8fd3994388803c169998b3a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -519,8 +519,8 @@ MonoBehaviour:
     I
     found myself in a pickle!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 27db36c0754bf5e4f87de6655021a195, type: 2}
-  m_sharedMaterial: {fileID: -7228926837244280820, guid: 27db36c0754bf5e4f87de6655021a195, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ddd56f54a8fd3994388803c169998b3a, type: 2}
+  m_sharedMaterial: {fileID: -3833636351256235917, guid: ddd56f54a8fd3994388803c169998b3a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
